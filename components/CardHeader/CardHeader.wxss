@@ -1,0 +1,31 @@
+/* components/CardHeader/CardHeader.wxss */
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.car_header{
+  /* width: 100%; */
+  line-height: 50rpx;
+  height: 50rpx;
+}
+.car_header .title{
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.car_header .highlight{
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #ff0000;
+}
+
+.car_header .more{
+  color: #858585;
+  font-size: 24rpx;
+}
+.car_header .arrow{
+  color: #858585;
+  display: inline-block;
+  transform:scale(.7,1.2);
+}

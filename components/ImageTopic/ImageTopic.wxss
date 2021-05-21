@@ -1,0 +1,32 @@
+/* components/ImageTopic/ImageTopic.wxss */
+.image_topic{
+  position: relative;
+}
+
+.image_topic .image_topic_mask{
+  position: absolute;
+  background-color: rgba(0,0,0,.3);
+  border-radius: 10rpx 0 0 10rpx;
+  
+}
+.image_topic .image_topic_mask text{
+  color: #FFF; 
+  font-size: 31rpx;
+  position: absolute;
+  top:54rpx;
+  left:44rpx;
+}
+
+.image_topic .image_topic_mask button{
+  background: #ff161e;
+  color: #FFF;
+  font-size: 22rpx;
+  margin: 0;
+  width: 128rpx;
+  padding: 4rpx 0;
+  font-weight: lighter;
+  border-radius: 10rpx;
+  position: absolute;
+  top:146rpx;
+  left:46rpx;
+}

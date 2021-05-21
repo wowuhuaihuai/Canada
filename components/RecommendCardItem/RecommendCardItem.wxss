@@ -1,0 +1,38 @@
+/* components/RecommendCardItem/RecommendCardItem.wxss */
+.recommend_card_item{
+  position: relative;
+}
+
+.recommend_card_item .recommend_mask{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* width: 41%; */
+  background-color: rgba(0,0,0,.3);
+  border-radius: 10rpx 0 0 10rpx;
+  
+}
+.recommend_card_item .recommend_mask text{
+  color: #FFF; 
+  font-size: 31rpx;
+  position: absolute;
+  top:56rpx;
+  left:46rpx;
+  /* padding-right: 18rpx; */
+}
+
+.recommend_card_item .recommend_mask button{
+  background: #ff161e;
+  color: #FFF;
+  font-size: 22rpx;
+  margin: 0;
+  width: 128rpx;
+  padding: 4rpx 0;
+  font-weight: lighter;
+  border-radius: 10rpx;
+  position: absolute;
+  top:146rpx;
+  left:46rpx;
+}

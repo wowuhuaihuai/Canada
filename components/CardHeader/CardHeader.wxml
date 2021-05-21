@@ -1,0 +1,9 @@
+<!--components/CardHeader/CardHeader.wxml-->
+<view class="car_header" style="padding:{{padding}}">
+  <view class="fl">
+      <text class="highlight">{{lightTitle}}</text><text class="title">{{title}}</text>
+  </view>
+  <view class="fr" wx:if="{{more}}"> 
+      <text class="more">{{more}}</text><text wx:if="{{hasArrow}}" class="arrow">></text>
+  </view>
+</view>

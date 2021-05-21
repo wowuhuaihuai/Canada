@@ -1,0 +1,10 @@
+<!--components/RecommendCardItem/RecommendCardItem.wxml-->
+<view>
+  <view class="recommend_card_item">
+    <image style="width:{{width}};height:{{height}}" src="{{src}}"></image>
+    <view class="recommend_mask" style="width:{{maskWidth}};height:{{height}}">
+        <text style="padding-right:{{textPaddingRight}}">{{title}}</text>
+        <button>{{buttonContent}}</button>
+    </view>
+  </view>
+</view>

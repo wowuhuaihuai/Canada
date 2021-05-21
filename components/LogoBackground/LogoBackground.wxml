@@ -1,0 +1,4 @@
+<!--components/LogoBackground/LogoBackground.wxml-->
+<view class="logo_background" style="height:{{height}}">
+    <image wx:if="{{logo}}" src="/static/icon/home-logo.png"></image>
+</view> 

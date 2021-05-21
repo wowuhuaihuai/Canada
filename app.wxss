@@ -1,0 +1,21 @@
+/**app.wxss**/
+/* 公共样式 start */
+.mask{
+  background: #f4f5f7;
+  width: 100%;
+  min-height: 100vh;
+  overflow: scroll;
+
+}
+.card{
+  background: #FFF;
+  margin:0 24rpx 50rpx 24rpx;
+  border-radius: 20rpx;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+/* 公共样式 end */

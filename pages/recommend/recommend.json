@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#4a4a4a",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "专题", 
+  "usingComponents": {
+    "LogoBackground":"/components/LogoBackground/LogoBackground",
+    "CardHeader":"/components/CardHeader/CardHeader"
+  }
+}

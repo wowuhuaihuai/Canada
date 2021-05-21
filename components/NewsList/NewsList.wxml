@@ -1,0 +1,12 @@
+<!--components/NewsList/NewsList.wxml-->
+<view class="news_list">
+  <view class="news_item" wx:for="{{newsList}}"  wx:key="id">
+    <view class="news_left">
+      <text class="news_title">{{item.title}}</text>
+      <text class="news_time">{{item.time}}</text>
+    </view>
+    <view class="news_right" >
+      <image src="{{item.img}}"></image>
+    </view>
+  </view>
+</view>

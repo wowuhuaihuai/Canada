@@ -1,0 +1,32 @@
+/* components/NewsList/NewsList.wxss */
+.news_list .news_item{
+  height: 240rpx;
+  margin-bottom:36rpx;
+  position: relative;
+  padding: 0 16rpx;
+}
+.news_list .news_item:not(:last-child){
+  border-bottom: 1rpx solid #d5d5d5;
+} 
+.news_list .news_left{
+  float: left;
+  width: 300rpx;
+}
+.news_list .news_right{
+  float: right;
+}
+.news_list .news_item image{
+  height: 196rpx;
+  width: 260rpx;
+}
+.news_title{
+  font-size: 30rpx;
+  color: #232323;
+}
+.news_time{
+  font-size: 24rpx;
+  color: #b5b5b5;
+  position: absolute;
+  bottom: 22rpx;
+  left: 16rpx;
+}

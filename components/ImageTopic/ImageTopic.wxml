@@ -1,0 +1,8 @@
+<!--components/ImageTopic/ImageTopic.wxml-->
+<view class="image_topic">
+  <view class="image_topic_mask" style="width:{{maskWidth}};height:{{height}}">
+      <text style="padding-right:{{textPaddingRight}}">{{title}}</text>
+      <button>{{buttonContent}}</button>
+  </view>
+  <image class="image_topic_img" style="width:{{width}};height:{{height}}" src="{{src}}"></image>
+</view>

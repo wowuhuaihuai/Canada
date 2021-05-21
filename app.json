@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/enterpriseDetail/enterpriseDetail",
+    "pages/recommend/recommend",
+    "pages/trading/trading"
+  ],
+  "window": {},
+  "tabBar": {
+    "color": "#94969C",
+    "selectedColor": "#F74172",
+    "backgroundColor": "#FFF",
+    "tabbarHeight": 90,
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/tab-home.png",
+        "selectedIconPath": "/static/icon/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/trading/trading",
+        "iconPath": "static/icon/tab-trading.png",
+        "selectedIconPath": "/static/icon/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/tab-education.png",
+        "selectedIconPath": "/static/icon/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/tab-activity.png",
+        "selectedIconPath": "/static/icon/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/tab-mine.png",
+        "selectedIconPath": "/static/icon/tab-home-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

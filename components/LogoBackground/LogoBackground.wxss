@@ -1,0 +1,16 @@
+/* components/LogoBackground/LogoBackground.wxss */
+.logo_background {
+  width: 100vw;
+  height: 420rpx;
+  background:
+  linear-gradient(
+    to bottom,
+    #4a4a4a 60%,
+    #f4f5f7 100%
+    );
+}
+.logo_background image{
+  height: 56rpx;
+  width: 156rpx;
+  margin: 100rpx 0 0 42rpx;
+}
