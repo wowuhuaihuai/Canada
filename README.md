@@ -1,3 +1,15 @@
+### image与view之间有空隙
+
+```
+原因：
+图片文字等inline元素默许是跟父级元素的baseline对齐，而baseline又和父级底边有必定间距
+
+解决方案：
+将图片转换为块级对象即，设置img为 display:block;
+```
+
+
+
 ### tabBar底部按钮配置
 
 app.json
