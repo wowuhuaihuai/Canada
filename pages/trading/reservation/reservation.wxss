@@ -1,0 +1,56 @@
+/* pages/reservation/reservation.wxss */
+.container{
+    margin: 32rpx;
+    background: #FFF;
+    border-radius: 20rpx;
+    padding: 0 20rpx;
+}
+.item{
+    height: 128rpx;
+    font-size: 28rpx;
+    /* line-height: 64rpx; */
+}
+.item:not(:last-child){
+    border-bottom: 1rpx solid #d5d5d5;
+  } 
+  .item text{
+    height: 128rpx;
+    line-height: 34rpx;
+    padding-left: 30rpx;
+    color: #232323;
+    font-weight: 300;
+  }
+.item input{
+    height: 128rpx;
+    padding-left: 40rpx;
+    width: 470rpx;
+  }
+.confirm{
+    font-size: 26rpx;
+    color: #232323;
+    text-align: center;
+    height: 50rpx;
+    line-height: 50rpx;
+    margin-bottom: 20rpx;
+}
+.confirm checkbox{
+    position: relative;
+    top: -4rpx;
+}
+.confirm checkbox .wx-checkbox-input{
+    border-radius: 50%;/* 圆角 */
+    width: 32rpx; /* 背景的宽 */
+    height: 32rpx; /* 背景的高 */
+  }
+button{
+    width: 706rpx !important;
+    height: 92rpx !important;
+    background: #4a4a4a;
+    padding:0 !important;
+    color: #FFF;
+    font-size: 32rpx;
+    display: block;
+    border-radius: 46rpx !important;
+    line-height: 92rpx !important;
+}
+

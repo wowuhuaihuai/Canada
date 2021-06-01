@@ -1,7 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "CardHeader":"/components/CardHeader/CardHeader"
-
-  }
-}

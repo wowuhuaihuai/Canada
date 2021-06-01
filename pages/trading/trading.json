@@ -1,8 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "CardHeader":"/components/CardHeader/CardHeader",
-    "LogoBackground":"/components/LogoBackground/LogoBackground",
-    "RecommendCardItem":"/components/RecommendCardItem/RecommendCardItem"
-  }
-}

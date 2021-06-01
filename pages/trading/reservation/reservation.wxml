@@ -1,0 +1,52 @@
+<!--pages/reservation/reservation.wxml-->
+<!-- 预约联系 -->
+<view class="mask">
+    <view class="container">
+        <view class="item">
+            <text class="fl">
+            姓名
+            Name
+        </text>
+        <input class="fl" type="text" placeholder="必填，请填写您的姓名"/>        
+        </view>
+        <view class="item">
+            <text class="fl">
+            姓名
+            Name
+        </text>
+        <input class="fl" type="text" placeholder="必填，请填写您的姓名"/>        
+        </view>
+        <view class="item">
+            <text class="fl">
+            姓名
+            Name
+        </text>
+        <input class="fl" type="text" placeholder="必填，请填写您的姓名"/>        
+        </view>
+        <view class="item">
+            <text class="fl">
+            姓名
+            Name
+        </text>
+        <input class="fl" type="text" placeholder="必填，请填写您的姓名"/>        
+        </view>
+        <view class="item">
+            <text class="fl">
+            姓名
+            Name
+        </text>
+        <input class="fl" type="text" placeholder="必填，请填写您的姓名"/>        
+        </view>
+        <view class="item">
+            <text class="fl">
+            姓名
+            Name
+        </text>
+        <input class="fl" type="text" placeholder="必填，请填写您的姓名"/>        
+        </view>         
+    </view>
+    <view class="confirm">
+        <checkbox/>我已认真阅读，理解并同意《用户隐私政策》
+    </view>
+    <button class="submit">提 交</button>
+</view>	

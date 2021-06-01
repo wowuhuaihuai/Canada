@@ -1,0 +1,41 @@
+<!--pages/trading/trading.wxml-->
+<!-- 活动 -->
+<view class="container">
+  <LogoBackground />
+    <view class="search">
+      <text class="search_title">活动</text>
+      <image class="search_calendar" src="/static/icon/calendar.png"></image>
+      <image class="search_icon" src="/static/icon/search.png"></image><input placeholder="海南消博会" type="text"
+        class="keyword" />
+    </view>
+  <view class="wrapper">
+    <view class="item">
+      <image class="img" src="/static/image/detail.png" />
+      <text class="title" >2021年海南消博会</text>
+      <text class="time" >2021/5/6</text>
+    </view>
+        <view class="item">
+      <image class="img" src="/static/image/detail.png" />
+      <text class="title" >2021年海南消博会</text>
+      <text class="time" >2021/5/6</text>
+    </view>
+        <view class="item">
+      <image class="img" src="/static/image/detail.png" />
+      <text class="title" >2021年海南消博会</text>
+      <text class="time" >2021/5/6</text>
+    </view>
+        <view class="item">
+      <image class="img" src="/static/image/detail.png" />
+      <text class="title" >2021年海南消博会</text>
+      <text class="time" >2021/5/6</text>
+    </view>
+        <view class="item">
+      <image class="img" src="/static/image/detail.png" />
+      <text class="title" >2021年海南消博会</text>
+      <text class="time" >2021/5/6</text>
+    </view>
+    <view class="more">
+      下拉加载更多…
+    </view>
+  </view>
+</view>

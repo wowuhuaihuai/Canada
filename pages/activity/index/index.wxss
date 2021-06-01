@@ -1,0 +1,105 @@
+/* pages/trading/trading.wxss */
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background: #f4f5f7;
+  padding: 0;
+  overflow: scroll;
+}
+
+.search{
+  position: absolute;
+  top: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 100%;
+  text-align: center;
+}
+.search .search_title{
+  color: #FFF;
+  font-size: 40rpx;
+  vertical-align: middle;
+  margin: 0 16rpx 0 36rpx;
+}
+.search .search_calendar{
+  height: 62rpx;
+  width: 62rpx;
+  vertical-align: middle;
+  margin-right: 26rpx;
+
+}
+
+.search .search_icon{
+  width: 28rpx;
+  height: 28rpx;
+  padding: 19rpx;
+  display: inline-block;
+  background: #FFF;
+  vertical-align: middle;
+  border-radius: 64rpx 0 0 64rpx ;
+}
+
+.search input{
+  background: #FFF;
+  display: inline-block;
+  height: 66rpx;
+  font-size: 28rpx;
+  vertical-align: middle;
+  border-radius:0 64rpx 64rpx 0;
+  text-align: left;
+  width: 400rpx;
+}
+.wrapper{
+  width: 710rpx;
+  margin: 0 auto;
+  padding-top: 40rpx;
+  background: #FFF;
+  border-radius: 20rpx;
+  position: relative;
+  top: -90rpx;
+}
+.item{
+  position: relative;
+  width: 610rpx;
+  margin: 30rpx auto;
+}
+.img{
+  display: block;
+  height: 342rpx;
+  width: 610rpx;
+  border-radius: 20rpx;
+  margin: 0 auto;
+
+}
+.title{
+  font-size: 32rpx;
+  background: rgba(0,0,0,.3);
+  display: block;
+  width: 560rpx;
+  border-radius: 0 0 20rpx 20rpx;
+  position: absolute;
+  bottom: 0;
+  color: #FFF;
+  padding-left: 50rpx;
+}
+.time{
+  display: inline-block;
+  width: 136rpx !important;
+  font-size: 24rpx;
+  text-align: center;
+  background: rgba(0,0,0,.3);
+  display: block;
+  width: 610rpx;
+  border-radius: 10rpx 0 0 10rpx;
+  position: absolute;
+  top: 26rpx;
+  right: 0;
+  color: #FFF;
+}
+.more{
+  height: 92rpx;
+  color: #b3b3b3;
+  line-height: 92rpx;
+  text-align: center;
+  border-top: 1rpx solid #cecece;
+}

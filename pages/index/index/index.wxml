@@ -1,0 +1,99 @@
+<view class="mask">
+  <!-- logo背景 -->
+  <LogoBackground></LogoBackground> 
+  <!-- 头部轮播 -->
+  <swiper class="header_swiper"  indicator-dots indicator-active-color="#ff0000">
+    <swiper-item>
+      <image src="/static/image/detail.png"></image>
+      <text>加拿大国家小程序正式上线</text>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/image/detail.png"></image>
+      <text>加拿大国家小程序正式上线</text>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/image/detail.png"></image>
+      <text>加拿大国家小程序正式上线</text>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/image/detail.png"></image>
+      <text>加拿大国家小程序正式上线</text>
+    </swiper-item>
+  </swiper>
+
+  <!-- 占位 -->
+  <view class="empty"></view>
+
+  <!-- 4个icon -->
+  <view class="icon_container">
+    <image src="/static/icon/activity_icon.png"></image>
+    <image src="/static/icon/activity_icon.png"></image>
+    <image src="/static/icon/activity_icon.png"></image>
+    <image src="/static/icon/activity_icon.png"></image>
+  </view>
+
+  <!-- 推荐专题 -->
+  <view class="topic_container">
+    <view class="topic_card">
+      <CardHeader lightTitle="推荐" title="专题"></CardHeader>
+    </view>
+    <swiper class="topic_swiper" circular previous-margin="28rpx" next-margin="198rpx">
+      <swiper-item class="topic_item">
+          <ImageTopic title="加拿大旅游特别专题" src="/static/image/detail.png" width="500rpx" heigt="220rpx"></ImageTopic>
+      </swiper-item>
+      <swiper-item class="topic_item">
+          <ImageTopic title="加拿大旅游特别专题" src="/static/image/detail.png" width="500rpx" heigt="220rpx"></ImageTopic>
+      </swiper-item>
+      <swiper-item class="topic_item">
+          <ImageTopic title="加拿大旅游特别专题" src="/static/image/detail.png" width="500rpx" heigt="220rpx"></ImageTopic>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 最新动态 -->
+  <view class="dynamic_container card">
+      <CardHeader lightTitle="最新" title="动态" padding="48rpx 42rpx 56rpx 26rpx"></CardHeader>
+    <view class="dynamic_list">
+      <NewsList></NewsList>
+    </view>
+  </view>
+  <!-- 热点直播 -->
+  <view class="live_container">
+      <CardHeader lightTitle="热点" title="直播" padding="0 68rpx 40rpx 50rpx"></CardHeader>
+      <swiper class="live_swiper" previous-margin="42rpx" next-margin="434rpx">
+        <swiper-item class="live_item">
+           <image  class="live_img" src="/static/image/live1.png"></image>
+           <text class="live_state">直播中</text>
+           <view class="live_desc">
+            <text class="live_title"> #快速通道#中文讲座</text>
+            <text class="live_time">2021/6/23</text>
+           </view>
+        </swiper-item>
+        <swiper-item class="live_item">
+          <image  class="live_img" src="/static/image/live1.png"></image>
+          <text class="live_state live_state_off">回放</text>
+          <view class="live_desc live_desc_off">
+            <text class="live_title"> #快速通道#中文讲座</text>
+            <text class="live_time">2021/6/23</text>
+           </view>
+        </swiper-item>
+        <swiper-item class="live_item">
+          <image  class="live_img" src="/static/image/live1.png"></image>
+          <text class="live_state live_state_off">回放</text>
+          <view class="live_desc live_desc_off">
+            <text class="live_title"> #快速通道#中文讲座</text>
+            <text class="live_time">2021/6/23</text>
+           </view>
+        </swiper-item>
+        <swiper-item class="live_item">
+          <image  class="live_img" src="/static/image/live1.png"></image>
+          <text class="live_state live_state_off">回放</text>
+           <view class="live_desc live_desc_off">
+            <text class="live_title"> #快速通道#中文讲座</text>
+            <text class="live_time">2021/6/23</text>
+           </view>
+        </swiper-item>
+     
+      </swiper>
+  </view>
+</view>

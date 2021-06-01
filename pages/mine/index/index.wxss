@@ -1,0 +1,59 @@
+/* pages/mine/index/index.wxss */
+.container{
+    position: relative;
+}
+.avatar{
+    width: 140rpx;
+    height: 140rpx;
+    border: 6rpx solid #FFF;
+    border-radius: 76rpx;
+    position: absolute;
+    top: 440rpx;
+    margin-left: 64rpx;
+}
+.nickname{
+    position: absolute;
+    top: 468rpx;
+    left: 240rpx;
+    color:#FFF;
+    font-size: 34rpx;
+    font-weight: 500;
+}
+.desc{
+    position: absolute;
+    top: 540rpx;
+    left: 240rpx;
+    color:#a1a1a1;
+    font-size: 22rpx;
+}
+.list{
+    margin-top: 120rpx;
+}
+.item{
+    height: 140rpx;
+    line-height: 140rpx;
+    border-bottom: 1rpx solid #ececec;
+    padding-right: 46rpx;
+}
+.icon{
+    height: 46rpx;
+    width: 46rpx;
+    vertical-align: middle;
+
+    margin: 0 28rpx 10rpx 60rpx;
+}
+.arrow{
+    float: right;
+    height: 44rpx;
+    width: 24rpx;
+    vertical-align: middle;
+    margin-top: 48rpx;
+
+}
+.logo{
+    width: 160rpx;
+    height: 40rpx;
+    display: block;
+    margin: 0 auto;
+    margin-top:60rpx;
+}

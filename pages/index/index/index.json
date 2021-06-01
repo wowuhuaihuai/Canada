@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "CardHeader":"/components/CardHeader/CardHeader",
+    "NewsList":"/components/NewsList/NewsList",
+    "LogoBackground":"/components/LogoBackground/LogoBackground",
+    "ImageTopic":"/components/ImageTopic/ImageTopic"
+
+  }
+}

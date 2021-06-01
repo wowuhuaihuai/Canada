@@ -14,3 +14,8 @@
   width: 156rpx;
   margin: 100rpx 0 0 42rpx;
 }
+.logo_mask{
+  height:100%;
+  width:100%;
+  background: rgba(0,0,0,.4);
+}

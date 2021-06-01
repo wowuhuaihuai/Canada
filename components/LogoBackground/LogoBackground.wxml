@@ -1,4 +1,14 @@
 <!--components/LogoBackground/LogoBackground.wxml-->
-<view class="logo_background" style="height:{{height}}">
-    <image wx:if="{{logo}}" src="/static/icon/home-logo.png"></image>
-</view> 
+<view wx:if="{{backgroundUrl}}" >
+    <view class="logo_background" style="height:{{height}};background:url({{backgroundUrl}})">
+        <view class="logo_mask">
+            <image wx:if="{{logo}}" src="/static/icon/home-logo.png"></image>
+        </view>
+    </view> 
+</view>
+<view wx:else> 
+        <view class="logo_background" style="height:{{height}}">
+        <image wx:if="{{logo}}" src="/static/icon/home-logo.png"></image>
+    </view> 
+</view>
+

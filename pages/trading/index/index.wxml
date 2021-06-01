@@ -1,0 +1,69 @@
+<!--pages/trading/trading.wxml-->
+<!-- 贸易 -->
+<view class="container">
+  <LogoBackground />
+    <view class="search">
+      <text class="search_title">贸易</text>
+      <image class="search_icon" src="/static/icon/search.png"></image><input placeholder="大健康行业专题" type="text"
+        class="keyword" />
+    </view>
+  <!-- <view class="wrapper"> -->
+ 
+
+    <view class="recommend_container">
+      <CardHeader lightTitle="推荐" title="专题"  padding="20rpx"></CardHeader>
+
+      <view class="recommend_item">
+        <RecommendCardItem width="610rpx" height="264rpx" maskWidth="218rpx" textPaddingRight="25rpx"
+          src="/static/image/trading-recommend-image1.png" title="旅游特别专题"></RecommendCardItem>
+      </view>
+
+      <view class="recommend_item">
+        <RecommendCardItem width="610rpx" height="264rpx" maskWidth="218rpx" textPaddingRight="25rpx"
+          src="/static/image/trading-recommend-image1.png" title="旅游特别专题"></RecommendCardItem>
+      </view>
+
+      <view class="recommend_item">
+        <RecommendCardItem width="610rpx" height="264rpx" maskWidth="218rpx" textPaddingRight="25rpx"
+          src="/static/image/trading-recommend-image1.png" title="旅游特别专题"></RecommendCardItem>
+      </view>
+
+    </view>
+
+    <view class="kong">
+
+    </view>
+    <CardHeader class="show_header" lightTitle="企业" title="展示" more="" padding="20rpx"></CardHeader>
+
+    <view class="show_container">
+      <view class="show_nav">
+        <text class="show_nav_text show_active">食品</text><text class="show_nav_text">环保</text><text
+          class="show_nav_text">医疗健康与养老服务</text><text class="show_nav_text">智能制造业与能源</text>
+      </view>
+      <image class="show_open" src="/static/icon/open.png"></image>
+      <view class="show_item">
+        <image class="show_img" src="/static/image/logo1.png"></image>
+        <view class="show_right">
+          <text class="show_title">费尔蒙酒店 Fairmont Hotel & Resorts</text>
+          <button class="show_look">查看详情</button>
+        </view>
+      </view>
+      <view class="show_item">
+        <image class="show_img" src="/static/image/logo1.png"></image>
+        <view class="show_right">
+          <text class="show_title">费尔蒙酒店 Fairmont Hotel & Resorts</text>
+          <button class="show_look">查看详情</button>
+        </view>
+      </view>
+      <view class="show_item">
+        <image class="show_img" src="/static/image/logo1.png"></image>
+        <view class="show_right">
+          <text class="show_title">费尔蒙酒店 Fairmont Hotel & Resorts</text>
+          <button class="show_look">查看详情</button>
+        </view>
+      </view>
+
+    <!-- </view> -->
+  </view>
+
+</view>

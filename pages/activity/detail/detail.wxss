@@ -1,0 +1,102 @@
+/* pages/activity/detail/detail.wxss */
+.cantainer{
+    width: 100vw;
+    min-height: 100vh;
+    background: #f4f5f7;
+    padding: 0;
+    overflow: scroll;
+  }
+  .banner{
+    padding: 0 50rpx;
+    position: absolute;
+    top: 0rpx;
+  }
+  
+  .banner image{
+    width: 650rpx;
+    height: 364rpx;
+    display: block;
+    background: #616162;
+    border-radius: 20rpx 20rpx 0 0 ;
+
+  }
+  .banner .title{
+    font-size: 32rpx;
+    color: #FFF;
+    /* font-weight: 600; */
+    background: #616162;
+    display: block;
+    width: 612rpx;
+    height: 82rpx;
+    line-height: 82rpx;
+    border-radius:0 0 20rpx 20rpx;
+    padding-left: 38rpx;
+
+  }
+  .kong{
+    height: 260rpx;
+  }
+.content{
+  font-size: 24rpx;
+  padding-left: 74rpx;
+}
+.item{
+  font-weight: 600;
+}
+.introduce{
+  background: #FFF;
+  margin: 46rpx 24rpx 142rpx 24rpx;
+  border-radius: 20rpx;
+}
+.desc{
+  display: block;
+  margin: 0 48rpx;
+  padding-bottom: 52rpx;
+  font-size: 28rpx;
+}
+.footer{
+  height: 96rpx;
+  line-height: 96rpx;
+  position: fixed;
+  bottom: 0;
+  background: #FFF;
+  width: 100%;
+  border-top: 1rpx solid #b8b8b8;
+  font-size: 28rpx;
+}
+
+.share{
+  width: 370rpx;
+  text-align: center;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+.share image{
+  width: 46rpx;
+  height: 46rpx;
+  margin-right: 26rpx;
+  vertical-align: middle;
+  margin-bottom: 12rpx;
+}
+.sign{
+  width: 370rpx;
+  text-align: center;
+  height: 96rpx;
+  line-height: 96rpx;
+
+}
+.sign image{
+  width: 66rpx;
+  height: 66rpx;
+  margin-right: 18rpx;
+  border-radius: 33rpx;
+  position: relative;
+  top: -26rpx;
+  vertical-align: middle;
+}
+.line{
+  height: 64rpx;
+  margin-top: 16rpx;
+  width: 1rpx;
+  background: #e3e3e3;
+}

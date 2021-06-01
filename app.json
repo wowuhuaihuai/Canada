@@ -1,10 +1,16 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/news/news",
-    "pages/enterpriseDetail/enterpriseDetail",
-    "pages/recommend/recommend",
-    "pages/trading/trading"
+    "pages/mine/index/index",
+    "pages/activity/detail/detail",
+    "pages/activity/reservation/reservation",
+    "pages/activity/index/index",
+    "pages/trading/recommend/recommend",
+    "pages/trading/enterpriseDetail/enterpriseDetail",
+    "pages/trading/reservation/reservation",
+    "pages/trading/index/index",
+    "pages/trading/product/product",
+    "pages/index/index/index",
+    "pages/index/news/news"
   ],
   "window": {},
   "tabBar": {
@@ -14,27 +20,27 @@
     "tabbarHeight": 90,
     "list": [
       {
-        "pagePath": "pages/news/news",
+        "pagePath": "pages/index/index/index",
         "iconPath": "static/icon/tab-home.png",
         "selectedIconPath": "/static/icon/tab-home-active.png"
       },
       {
-        "pagePath": "pages/trading/trading",
+        "pagePath": "pages/trading/index/index",
         "iconPath": "static/icon/tab-trading.png",
         "selectedIconPath": "/static/icon/tab-home-active.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/trading/index/index",
         "iconPath": "static/icon/tab-education.png",
         "selectedIconPath": "/static/icon/tab-home-active.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/activity/index/index",
         "iconPath": "static/icon/tab-activity.png",
         "selectedIconPath": "/static/icon/tab-home-active.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/mine/index/index",
         "iconPath": "static/icon/tab-mine.png",
         "selectedIconPath": "/static/icon/tab-home-active.png"
       }

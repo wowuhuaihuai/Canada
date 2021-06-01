@@ -11,6 +11,10 @@ Component({
     height:{
       type:String,
       value:"420rpx"
+    },
+    backgroundUrl:{
+      type:String,
+      value:""
     }
   },
 

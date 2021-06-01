@@ -1,0 +1,17 @@
+<!--pages/mine/index/index.wxml-->
+<!-- 我的 -->
+<view class="container">
+    <LogoBackground height="516rpx" backgroundUrl="/static/image/detail.png"/>
+    <image class="avatar" src="/static/image/live1.png"/>
+    <text class="nickname" >Jacklee</text>
+    <text class="desc" >欢迎您使用加拿大国家小程序</text>
+      
+    <view class="list">
+        <view class="item"><image class="icon" src="/static/icon/about.png"></image> 关于我们<image class="arrow" src="/static/icon/arrow.png"></image></view>
+        <view class="item"><image class="icon" src="/static/icon/star.png"></image>我报名的活动<image class="arrow" src="/static/icon/arrow.png"></image></view>
+        <view class="item"><image class="icon" src="/static/icon/contact.png"></image>联系我们<image class="arrow" src="/static/icon/arrow.png"></image></view>
+    </view>    
+    <image class="logo" src="/static/icon/canada_logo.png"/>
+      
+</view>
+	

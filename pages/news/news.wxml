@@ -1,9 +1,0 @@
-<!--pages/news/news.wxml-->
-<!-- 新闻列表 -->
-<view class="container">
-  <view class="card">
-    <NewsList></NewsList>
-    <view class="more">点击加载更多...</view>
-  </view>
-</view>
-

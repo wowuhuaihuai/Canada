@@ -1,0 +1,33 @@
+<!--pages/activity/detail/detail.wxml-->
+<!-- 活动详情 -->
+<view class="cantainer">
+  <LogoBackground logo="{{false}}" height="210rpx"/>
+  <view class="banner" >
+    <image src="/static/image/trading-recommend-image1.png"></image>
+    <text class="title">2021年海南消博会</text>
+  </view>
+  <view class="kong"></view>
+  <view class="content">
+    <view><text class="item">活动时间：</text><text>2021/5/6</text></view>
+    <view><text class="item">地点：</text><text>中国 · 海南海口秀英区滨海大道258号</text></view>
+    <view><text class="item">报名截止时间：</text><text>2021/4/30 23:59</text></view>
+  </view>
+  <view class="introduce">
+        <CardHeader lightTitle="活动" title="介绍" more="" padding="44rpx 0 46rpx 48rpx"></CardHeader>
+        <text class="desc">如果说，春季的加拿大是生机，夏季的加拿大是活力，秋季的加拿大是色彩，那冬季加拿大就是新鲜和刺激。
+
+蔚蓝的天空，晶莹剔透的雪花，在冰封的露易丝湖(Lake Louise)面，在这个天然的溜冰场上留下一生难忘的记忆。
+
+如果说，春季的加拿大是生机，夏季的加拿大是活力，秋季的加拿大是色彩，那冬季加拿大就是新鲜和刺激。
+
+蔚蓝的天空，晶莹剔透的雪花，在冰封的露易丝湖(Lake Louise)面，在这个天然的溜冰场上留下一生难忘的记忆。
+        </text>
+          
+  </view>
+  <view class="footer">
+    <view class="share fl"><image src="/static/icon/share_icon.png"></image>分享好友</view>
+    <view class="line fl"></view>
+    <view class="sign fl"><image src="/static/icon/sign.jpg"></image>活动报名</view>
+  </view>
+</view>
+

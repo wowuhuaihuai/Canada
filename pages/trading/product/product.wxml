@@ -1,0 +1,30 @@
+<!--pages/product/product.wxml-->
+<!-- 产品详情 -->
+<view class="product_mask mask">
+    <view class="header" >
+        <image class="header_img" src="/static/image/detail.png" />
+        <text class="header_text">挂耳咖啡精品手冲黑咖啡意式美式咖啡粉</text>
+    </view>
+    <view class="introduce">
+        <view class="introduce_card">
+            <CardHeader lightTitle="产品" title="介绍" more=""></CardHeader>
+        </view>
+        <image class="introduce_img" src="/static/image/detail.png" />
+        <text class="introduce_text">Tim Hortons对于每一位加拿大人，不仅仅是咖啡那么简单。它早已超越了咖啡店的范畴，成为加拿大的荣誉和品牌，是加拿大的文化符号之一。它经历过初期创业的艰辛，也经历过和美国快餐业Wendy’s的合并及现在与Burger King的强强联手，一路发展到今天，它已然是加拿大人心目中最好的咖啡品牌。</text> 
+    </view>
+    <view class="footer">
+        <image class="footer_img" src="/static/image/detail.png"  />
+        <view class="footer_content fr" >
+            <view class="footer_left fl">
+                <text class="footer_text" >返回企业首页</text>
+            </view>
+            <view class="footer_right fr">
+                <image class="footer_right_img" src="/static/image/detail.png"  />
+                <text class="footer_text" >分享好友</text>
+            </view> 
+            
+        </view>
+            
+    </view>
+</view>
+	
