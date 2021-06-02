@@ -7,8 +7,9 @@
 }
 .car_header{
   /* width: 100%; */
-  line-height: 50rpx;
-  height: 50rpx;
+  line-height: 72rpx;
+  height: 72rpx;
+  position: relative;
 }
 .car_header .title{
   font-size: 30rpx;
@@ -28,4 +29,17 @@
   color: #858585;
   display: inline-block;
   transform:scale(.7,1.2);
+}
+.car_header .desc{
+  color: #a1a1a1;
+  font-size: 24rpx;
+  font-weight: 600;
+  margin-left: 22rpx;
+}
+.car_header .close{
+  width: 54rpx;
+  height: 54rpx;
+  vertical-align: middle;
+  position: absolute;
+  right: 54rpx;
 }

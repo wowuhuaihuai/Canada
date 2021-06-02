@@ -1,0 +1,35 @@
+<!--pages/mine/activityList/activityList.wxml-->
+<view class="mask">
+    <view class="list">
+        <view class="item">
+            <image class="head" src="/static/image/detail.png" />
+            <view class="right">
+                <text class="title">中国国际消费品博览会</text>
+                <text class="time">2021/5/7</text>
+            </view>
+        </view>
+        <view class="item">
+            <image class="head" src="/static/image/detail.png" />
+            <view class="right">
+                <text class="title">中国国际消费品博览会</text>
+                <text class="time">2021/5/7</text>
+            </view>  
+        </view>
+        <view class="item">
+            <image class="head" src="/static/image/detail.png" />
+            <view class="right">
+                <text class="title">中国国际消费品博览会</text>
+                <text class="time">2021/5/7</text>
+            </view>
+              
+        </view>
+        <view class="item">
+            <image class="head" src="/static/image/detail.png" />
+            <view class="right">
+                <text class="title">中国国际消费品博览会</text>
+                <text class="time">2021/5/7</text>
+            </view>
+              
+        </view>
+    </view>
+</view>	

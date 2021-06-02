@@ -12,7 +12,11 @@
 .logo_background image{
   height: 56rpx;
   width: 156rpx;
-  margin: 100rpx 0 0 42rpx;
+  padding: 100rpx 552rpx 42rpx 42rpx;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: #4a4a4a;
 }
 .logo_mask{
   height:100%;

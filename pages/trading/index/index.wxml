@@ -15,17 +15,17 @@
 
       <view class="recommend_item">
         <RecommendCardItem width="610rpx" height="264rpx" maskWidth="218rpx" textPaddingRight="25rpx"
-          src="/static/image/trading-recommend-image1.png" title="旅游特别专题"></RecommendCardItem>
+          src="/static/image/detail.png" title="旅游特别专题"></RecommendCardItem>
       </view>
 
       <view class="recommend_item">
         <RecommendCardItem width="610rpx" height="264rpx" maskWidth="218rpx" textPaddingRight="25rpx"
-          src="/static/image/trading-recommend-image1.png" title="旅游特别专题"></RecommendCardItem>
+          src="/static/image/detail.png" title="旅游特别专题"></RecommendCardItem>
       </view>
 
       <view class="recommend_item">
         <RecommendCardItem width="610rpx" height="264rpx" maskWidth="218rpx" textPaddingRight="25rpx"
-          src="/static/image/trading-recommend-image1.png" title="旅游特别专题"></RecommendCardItem>
+          src="/static/image/detail.png" title="旅游特别专题"></RecommendCardItem>
       </view>
 
     </view>
@@ -62,8 +62,26 @@
           <button class="show_look">查看详情</button>
         </view>
       </view>
+    </view>
 
-    <!-- </view> -->
-  </view>
+    <!-- 全部标签 -->
+    <view class="label">
+      <view class="label_mask" catchtouchmove="touchMaskHandle"></view>
+      <view class="label_content">
+        <CardHeader class="label_header" lightTitle="全部" title="标签" more="" descString="点击选择标签" hasClose="{{true}}" padding="56rpx 0 46rpx 54rpx;"></CardHeader>   
+        <view class="list" >
+            <view class="item">全部</view>
+            <view class="item">食品</view>
+            <view class="item">环保</view>
+            <view class="item">医疗健康与养老服务</view>
+            <view class="item">智能制造</view>
+            <view class="item">全部</view>
+            <view class="item">食品</view>
+            <view class="item">环保</view>
+            <view class="item">医疗健康与养老服务</view>
+            <view class="item">智能制造</view>
+        </view>
+      </view>
 
+    </view>
 </view>

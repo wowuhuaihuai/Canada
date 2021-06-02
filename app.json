@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/index/privacy/privacy",
+    "pages/trading/index/index",
+    "pages/mine/activityList/activityList",
     "pages/mine/index/index",
     "pages/activity/detail/detail",
     "pages/activity/reservation/reservation",
@@ -7,7 +10,6 @@
     "pages/trading/recommend/recommend",
     "pages/trading/enterpriseDetail/enterpriseDetail",
     "pages/trading/reservation/reservation",
-    "pages/trading/index/index",
     "pages/trading/product/product",
     "pages/index/index/index",
     "pages/index/news/news"

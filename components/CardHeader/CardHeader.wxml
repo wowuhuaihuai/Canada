@@ -2,6 +2,8 @@
 <view class="car_header" style="padding:{{padding}}">
   <view class="fl">
       <text class="highlight">{{lightTitle}}</text><text class="title">{{title}}</text>
+      <text wx:if="{{descString}}" class="desc">{{descString}}</text>
+      <image wx:if="{{hasClose}}" class="close" src="/static/icon/close.png"></image>
   </view>
   <view class="fr" wx:if="{{more}}"> 
       <text class="more">{{more}}</text><text wx:if="{{hasArrow}}" class="arrow">></text>

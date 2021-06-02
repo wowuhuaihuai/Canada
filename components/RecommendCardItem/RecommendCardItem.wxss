@@ -1,6 +1,10 @@
 /* components/RecommendCardItem/RecommendCardItem.wxss */
 .recommend_card_item{
   position: relative;
+
+}
+.recommend_card_item image{
+  border-radius: 10rpx;
 }
 
 .recommend_card_item .recommend_mask{

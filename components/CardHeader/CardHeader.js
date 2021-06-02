@@ -23,7 +23,15 @@ Component({
     padding:{
       type:String,
       value:"0rpx"
-    }          
+    }, 
+    descString:{
+      type:String,
+      value:""
+    } , 
+    hasClose:{
+      type:Boolean,
+      value:false
+    }            
   },
 
   /**

@@ -138,3 +138,35 @@
   border-radius: 29rpx;
 
 }
+/* 所有标签 */
+.label_mask{
+  position: fixed;
+  bottom: 0;
+  border-radius: 50rpx 50rpx 0 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,.3);
+  z-index: 100;
+}
+.label_content{
+  background: #FFF;
+  width: 698rpx;
+  border-radius: 50rpx 50rpx 0 0;
+  margin: 0 26rpx;
+  /* padding: 56rpx 0 46rpx 54rpx; */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+}
+.list{
+  width: 100%;
+}
+.item{
+  display: inline-block;
+  font-size: 30rpx;
+  padding: 26rpx 68rpx;
+  background: #ebebeb;
+  border-radius: 24rpx;
+  margin: 15rpx;
+}
